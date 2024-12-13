@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 const Banner = ({ Image, Title, subtitle, link, }) => {
   return (
     <div className="container pt-6">
@@ -17,7 +19,9 @@ const Banner = ({ Image, Title, subtitle, link, }) => {
 
         {/* banner text section */}
 
-        <div
+        <motion.div
+        initial={{opacity:0, scale:0.5}}
+        whileInView={{opacity:1, scale:1}}
           className="flex flex-col justify-center items-center sm:text-center
         md:text-left space-y-5 lg:max-w[500px]"
         >
@@ -26,7 +30,7 @@ const Banner = ({ Image, Title, subtitle, link, }) => {
           </p>
           <p className="flex justify-center md:justify-start font-montserrat">{subtitle}</p>
           <button className=" bg-green-500 py-5 px-8  w-max rounded-xl font-bold text-white font-montserrat">Explore More</button>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import Equipments from "./Components/Equipments/Equipments";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Banner from "./Components/Banner/Banner";
+import Tab from "./Components/Tab/Tab";
 
 import img1 from "..//src/assets/exercise-fitness-centre-personal-trainer-physical-fitness-general-fitness-training-dumbbell-713597957b42ef034237dde7c327a526.png"
 import img2 from "../src/assets/gym-2.png"
@@ -31,6 +32,8 @@ const App = () => {
         <Equipments />
         <Banner {...BannerData} />
         <Banner {...BannerData2} />
+        <Tab />
+       
       </div>
     </div>
   );
