@@ -1,9 +1,10 @@
 import Image1 from "../../assets/yoga.jpg";
-import Image2 from "../../assets/yoga1.jpg";
-import Image3 from "../../assets/yoga1.jpg";
-import Image4 from "../../assets/gym.png";
-import Image5 from "../../assets/yoga1.jpg";
-import Image6 from "../../assets/gym.png";
+import Image2 from "../../assets/yoga3.jpg";
+import Image3 from "../../assets/gym4.jpg";
+import Image4 from "../../assets/fitness3.jpg";
+import Image5 from "../../assets/muscle4.jpg";
+import Image6 from "../../assets/muscle5.jpg";
+
 
 export const ProductsData = [
   {

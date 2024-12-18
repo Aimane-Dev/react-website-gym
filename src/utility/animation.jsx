@@ -36,14 +36,14 @@ export const FadeUp = (delay) => {
     return {
       hidden: {
         opacity: 0,
-        x: -100,
+        y: 100, // Element starts 100 pixels to the right
       },
       visible: {
         opacity: 1,
-        x: 0,
+        x: 0, // Element moves to its original position
         transition: {
-          duration: 1,
-          delay: delay,
+          duration: 1, // Animation lasts for 1 second
+          delay: delay, // Delay before the animation starts
         },
       },
     };

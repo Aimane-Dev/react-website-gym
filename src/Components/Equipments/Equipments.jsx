@@ -2,7 +2,6 @@ import { GrYoga } from "react-icons/gr";
 import { FaDumbbell } from "react-icons/fa";
 import { GiGymBag } from "react-icons/gi";
 
-
 const Equip = [
   {
     id: 1,
@@ -33,7 +32,7 @@ const Equipments = () => {
       <div className="container">
         <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4
-        gap-6 font-montserrat"
+         gap-6 font-montserrat"
         >
           <div className="space-y-4 p-6">
             <h1 className="text-3xl md:text-4xl font-bold">

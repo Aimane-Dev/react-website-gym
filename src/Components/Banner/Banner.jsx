@@ -1,11 +1,10 @@
-import { motion } from "motion/react";
 
 const Banner = ({ Image, Title, subtitle, link, }) => {
   return (
     <div className="container pt-6">
       <div
         className="grid grid-cols-1 md:grid-cols-2
-        space-y-6 md:space-y0 py-12 bg-green-50  rounded-xl"
+        space-y-6 md:space-y0 py-12  rounded-xl"
       >
         {/* banner section */}
         <div>
@@ -19,9 +18,8 @@ const Banner = ({ Image, Title, subtitle, link, }) => {
 
         {/* banner text section */}
 
-        <motion.div
-        initial={{opacity:0, scale:0.5}}
-        whileInView={{opacity:1, scale:1}}
+        <div
+        
           className="flex flex-col justify-center items-center sm:text-center
         md:text-left space-y-5 lg:max-w[500px]"
         >
@@ -30,7 +28,7 @@ const Banner = ({ Image, Title, subtitle, link, }) => {
           </p>
           <p className="flex justify-center md:justify-start font-montserrat">{subtitle}</p>
           <button className=" bg-green-500 py-5 px-8  w-max rounded-xl font-bold text-white font-montserrat">Explore More</button>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
